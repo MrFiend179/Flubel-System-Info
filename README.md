@@ -1,4 +1,4 @@
-# [Download]
+# [Download](https://github.com/MrFiend179/Flubel-System-Info/releases)
 
 
 # English
