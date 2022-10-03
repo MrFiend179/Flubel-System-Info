@@ -1,0 +1,526 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    user-select: none;
+    background-color: transparent;
+    -webkit-app-region: no-drag;
+}
+.main-app {
+    width: 100vw;
+    height: 100vh;
+    background-color: #333;
+    border-radius: 5px;
+}
+nav{
+    width: 100vw;
+    height: 27px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(41, 39, 39);
+    -webkit-app-region: drag;
+
+}
+.nav-link2{
+    -webkit-app-region: no-drag;
+    user-select: none;
+    cursor: pointer;
+    font-size: 1rem;
+    padding-left: 16px;
+    padding-top: 6px;
+    padding-right: 16px;
+    padding-bottom: 2.5px;
+    align-items: center;
+    background-color: rgb(41, 39, 39);
+    position: fixed;
+    right: 0px;
+    bottom: 533px;
+}
+.nav-link4{
+    -webkit-app-region: no-drag;
+    user-select: none;
+    padding:15px;
+    cursor: pointer;
+    font-size: 1rem;
+    padding-left: 9px;
+    padding-top: 3px;
+    padding-right: 9px;
+    padding-bottom: 1px;
+    align-items: center;
+    background-color: rgb(41, 39, 39);
+    position: fixed;
+    bottom: 534px;
+    left: 75px;
+    border-radius: 4px;
+}
+.nav-link6{
+    -webkit-app-region: no-drag;
+    user-select: none;
+    padding:15px;
+    cursor: pointer;
+    font-size: 1rem;
+    padding-left: 9px;
+    padding-top: 3px;
+    padding-right: 9px;
+    padding-bottom: 1px;
+    align-items: center;
+    background-color: rgb(41, 39, 39);
+    position: fixed;
+    bottom: 534px;
+    left: 148px;
+    border-radius: 4px;
+}
+.nav-link2:hover{
+    color: white;
+    background-color:rgb(228, 40, 40);
+}
+.nav-link6:hover{
+    color: white;
+    background-color:rgb(61, 61, 61);
+}
+.nav-link1:hover{
+    color: white;
+    background-color:rgb(61, 61, 61);
+}
+.nav-link:hover{
+    color: white;
+    background-color:rgb(61, 61, 61);
+    border-radius: 4px;
+}
+.nav-link4:hover{
+    color: white;
+    background-color:rgb(61, 61, 61);
+    border-radius: 4px;
+}
+.nav-link3:hover{
+    color: white;
+    background-color:rgb(61, 61, 61);
+    border-radius: 4px;
+}
+.nav-link{
+    -webkit-app-region: no-drag;
+    user-select: none;
+    cursor: pointer;
+    font-size: 1rem;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    background-color: rgb(41, 39, 39);
+    border-radius: 4px;
+    position: fixed;
+    top: 1px;
+}
+.nav-link3{
+    -webkit-app-region: no-drag;
+    user-select: none;
+    cursor: pointer;
+    font-size: 1rem;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    background-color: rgb(41, 39, 39);
+    position: fixed;
+    left: 38px;
+    border-radius: 4px;
+    bottom: 534px;
+}
+.text {
+    color: rgb(128, 128, 128);
+    font-size: .9rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav-link1{
+    -webkit-app-region: no-drag;
+    user-select: none;
+    padding:15px;
+    cursor: pointer;
+    font-size: 1rem;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 1px;
+    align-items: center;
+    background-color: rgb(41, 39, 39);
+    position: fixed;
+    right: 42px;
+    bottom: 533px;
+    color: white;
+}
+.header {
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 2rem;
+    color:white ;
+    margin-bottom: 10px;
+}
+
+.nav-link5:hover{
+    color: white;
+    background-color:rgb(61, 61, 61);
+    border-radius: 4px;
+}
+.nav-link5{
+    -webkit-app-region: no-drag;
+    user-select: none;
+    cursor: pointer;
+    font-size: 1rem;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    background-color: rgb(41, 39, 39);
+    border-radius: 4px;
+    position: fixed;
+    top: 1px;
+    left: 112px;
+}
+#countdowntimer{
+    color: rgb(182, 182, 182);
+    padding-left: 720px;
+    font-size: 1rem;
+}
+#Controller{
+    color: rgb(182, 182, 182);
+    padding-left: 250px;
+    size: 1.5rem;
+}
+#cont{
+    color: rgb(182, 182, 182);
+    font-size: 1.5rem;
+    padding-left: 350px;
+    font-weight: 150;
+}
+#vendor{
+    color: rgb(182, 182, 182);
+    font-size: 1.1rem;
+    padding-left: 80px;
+}
+#model{
+    color: rgb(182, 182, 182);
+    font-size: 1.1rem;
+    padding-left: 80px;
+}
+#spacvm{
+    color: transparent;
+    font-size: 2px;
+}
+#vram{
+    color: rgb(182, 182, 182);
+    font-size: 1.1rem;
+    padding-left: 80px;
+}
+#tpspac{
+    color: transparent;
+    font-size: .3rem;
+}
+#n1{
+    color: rgb(182, 182, 182);
+    padding-left: 310px;
+}
+#n2{
+    color: rgb(182, 182, 182);
+    padding-left: 240px;
+}
+#spacni{
+    color: transparent;
+    font-size: .2rem;
+}
+#model1{
+    color: white;
+    position: fixed;
+    left: 250px;
+}
+#model2{
+    color: white;
+    position: fixed;
+    left: 500px;
+}
+#vram1{
+    color: white;
+    position: fixed;
+    left: 295px;
+}
+#vramb{
+    color: rgb(182, 182, 182);
+    font-size: 13px;
+    padding-left: 5px;
+}
+#vram2{
+    color: white;
+    position: fixed;
+    left: 545px;
+}
+#display{
+    color: rgb(182, 182, 182);
+    font-size: 1.5rem;
+    padding-left: 360px;
+    font-weight: 150;
+}
+#spacecontdisp{
+    color: transparent;
+}
+#modeld{
+    color: rgb(182, 182, 182);
+    font-size: 1.1rem;
+    padding-left: 80px;
+}
+#maind{
+    color: rgb(182, 182, 182);
+    font-size: 1.1rem;
+    padding-left: 80px;
+}
+#resd{
+    color: rgb(182, 182, 182);
+    font-size: 1.1rem;
+    padding-left: 80px;
+}
+#rfrshrated{
+    color: rgb(182, 182, 182);
+    font-size: 1.1rem;
+    padding-left: 80px;
+}
+#pxdepthd{
+    color: rgb(182, 182, 182);
+    font-size: 1.1rem;
+    padding-left: 80px;
+}
+.span-demo-center {
+    text-align: center;
+  }
+#tstcenter{
+    text-align: center;
+}
+#model1d{
+    text-align: center;
+    position: fixed;
+    top: 368px;
+    left: 205px;
+    width: 220px;
+}
+#model1din{
+    color: white;
+}
+#model2d{
+    text-align: center;
+    position: fixed;
+    top: 368px;
+    left: 455px;
+    width: 220px;
+    
+}
+#model2din{
+    color: white;
+}
+#veni1{
+    text-align: center;
+    position: fixed;
+    top: 215px;
+    left: 215px;
+    width: 200px;
+}
+#veni1in{
+    color: white;
+}
+#veni2{
+    text-align: center;
+    position: fixed;
+    top: 215px;
+    left: 465px;
+    width: 200px;
+}
+#veni2in{
+    color: white;
+}
+#model1{
+    text-align: center;
+    position: fixed;
+    top: 241px;
+    left: 190px;
+    width: 250px;
+    
+}
+#model1in{
+    color: white;
+}
+#model2{
+    text-align: center;
+    position: fixed;
+    top: 241px;
+    left: 445px;
+    width: 240px;
+}
+#model2in{
+    color: white;
+}
+#vram1{
+    text-align: center;
+    position: fixed;
+    top: 267px;
+    left: 215px;
+    width: 200px;
+}
+#vram1in{
+    color: white;
+}
+#vram2{
+    text-align: center;
+    position: fixed;
+    top: 267px;
+    left: 465px;
+    width: 200px;
+}
+#vram2in{
+    color: white;
+}
+#main1d{
+    text-align: center;
+    position: fixed;
+    top: 395px;
+    left: 215px;
+    width: 200px;
+    
+}
+#main1din{
+    color: white;
+}
+#main2d{
+    text-align: center;
+    position: fixed;
+    top: 395px;
+    left: 465px;
+    width: 200px;
+    
+}
+#main2din{
+    color: white;
+}
+#res1d{
+    text-align: center;
+    position: fixed;
+    top: 422px;
+    left: 215px;
+    width: 200px;
+    
+}
+#res1din{
+    color: white;
+}
+#res2d{
+    text-align: center;
+    position: fixed;
+    top: 422px;
+    left: 465px;
+    width: 200px;
+    
+}
+#res2din{
+    color: white;
+}
+#pxdepth1d{
+    text-align: center;
+    position: fixed;
+    top: 449px;
+    left: 215px;
+    width: 200px;
+    
+}
+#pxdepth1din{
+    color: white;
+}
+#pxdepth2d{
+    text-align: center;
+    position: fixed;
+    top: 449px;
+    left: 465px;
+    width: 200px;
+    
+}
+#pxdepth2din{
+    color: white;
+}
+#rfrshrate1d{
+    text-align: center;
+    position: fixed;
+    top: 476px;
+    left: 215px;
+    width: 200px;
+    
+}
+#rfrshrate1din{
+    color: white;
+}
+#rfrshrate2d{
+    text-align: center;
+    position: fixed;
+    top: 476px;
+    left: 465px;
+    width: 200px;
+    
+}
+#rfrshrate2din{
+    color: white;
+}
+#intel{
+    position: fixed;
+    left: 30px;
+    rotate: -10deg;
+}
+#intel:hover{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    transition: .3s filter;
+    filter: drop-shadow( 0px 0px 2px #2497da);
+}
+#amd{
+    position: fixed;
+    left: 110px;
+    rotate: -3deg;
+}
+#amd:hover{
+    transition: .3s filter;
+    filter: drop-shadow( 0px 0px 2px #ED1C24)
+}
+#nvidia{
+    position: fixed;
+    left: 70px;
+    top: 90px;
+    rotate: 10deg;
+    height: 1px;
+}
+#nvidia:hover{
+    transition: .3s filter;
+    filter: drop-shadow( 0px 0px 2px #76B900);
+  }
+  
+.nav-link7{
+    -webkit-app-region: no-drag;
+    user-select: none;
+    padding:15px;
+    cursor: pointer;
+    font-size: 1rem;
+    padding-left: 8px;
+    padding-top: 3px;
+    padding-right: 8px;
+    padding-bottom: 1px;
+    align-items: center;
+    background-color: rgb(41, 39, 39);
+    position: fixed;
+    bottom: 534px;
+    left: 182px;
+    border-radius: 4px;
+}
+.nav-link7:hover{
+    color: white;
+    background-color:rgb(61, 61, 61);
+}

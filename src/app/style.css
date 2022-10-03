@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    user-select: none;
+    background-color: transparent;
+    -webkit-app-region: no-drag;
+}
+.main-app {
+    width: 100vw;
+    height: 100vh;
+    background-color: #333;
+    border-radius: 5px;
+}
+nav{
+    width: 100vw;
+    height: 27px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(41, 39, 39);
+    -webkit-app-region: drag;
+
+}
+.nav-link5:hover{
+    color: white;
+    background-color:rgb(61, 61, 61);
+    border-radius: 4px;
+}
+.nav-link5{
+    -webkit-app-region: no-drag;
+    user-select: none;
+    cursor: pointer;
+    font-size: 1rem;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    background-color: rgb(41, 39, 39);
+    border-radius: 4px;
+    position: fixed;
+    top: 1px;
+    left: 112px;
+}
+.nav-link2{
+    -webkit-app-region: no-drag;
+    user-select: none;
+    cursor: pointer;
+    font-size: 1rem;
+    padding-left: 16px;
+    padding-top: 6px;
+    padding-right: 16px;
+    padding-bottom: 2.5px;
+    align-items: center;
+    background-color: rgb(41, 39, 39);
+    position: fixed;
+    right: 0px;
+    bottom: 533px;
+}
+.nav-link4{
+    -webkit-app-region: no-drag;
+    user-select: none;
+    padding:15px;
+    cursor: pointer;
+    font-size: 1rem;
+    padding-left: 9px;
+    padding-top: 3px;
+    padding-right: 9px;
+    padding-bottom: 1px;
+    align-items: center;
+    background-color: rgb(41, 39, 39);
+    position: fixed;
+    bottom: 534px;
+    left: 75px;
+    border-radius: 4px;
+}
+.nav-link2:hover{
+    color: white;
+    background-color:rgb(228, 40, 40);
+}
+.nav-link1:hover{
+    color: white;
+    background-color:rgb(61, 61, 61);
+}
+.nav-link:hover{
+    color: white;
+    background-color:rgb(61, 61, 61);
+    border-radius: 4px;
+}
+.nav-link4:hover{
+    color: white;
+    background-color:rgb(61, 61, 61);
+    border-radius: 4px;
+}
+.nav-link3:hover{
+    color: white;
+    background-color:rgb(61, 61, 61);
+    border-radius: 4px;
+}
+.nav-link{
+    -webkit-app-region: no-drag;
+    user-select: none;
+    cursor: pointer;
+    font-size: 1rem;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    background-color: rgb(41, 39, 39);
+    border-radius: 4px;
+    position: fixed;
+    top: 1px;
+}
+.nav-link3{
+    -webkit-app-region: no-drag;
+    user-select: none;
+    cursor: pointer;
+    font-size: 1rem;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    background-color: rgb(41, 39, 39);
+    position: fixed;
+    left: 38px;
+    border-radius: 4px;
+    bottom: 534px;
+}
+.text {
+    color: rgb(128, 128, 128);
+    font-size: .9rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav-link1{
+    -webkit-app-region: no-drag;
+    user-select: none;
+    padding:15px;
+    cursor: pointer;
+    font-size: 1rem;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 1px;
+    align-items: center;
+    background-color: rgb(41, 39, 39);
+    position: fixed;
+    right: 42px;
+    bottom: 533px;
+    color: white;
+}
+
+
+
+.header {
+    text-align: center;
+    margin-top: 60px;
+    font-weight: 600;
+    font-size: 2rem;
+    color:white ;
+}
+.cpu-name{
+    color: white;
+    font-weight: 100;
+    font-size: 1.3rem;
+}
+#cpu-cores{
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+    font-weight: 100;
+    padding-top: 5px;
+}
+#used-cpu{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 150;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+    color: white;
+}
+
+#outer-bar{
+    height: 25px;
+    width: 60vw;
+    margin:10px auto;
+    border-radius: 5px;
+    background-color: rgb(39, 39, 39);
+}
+
+#inner-bar{
+    height: 25px;
+    width: 69%;
+    background-color: rgb(26, 67, 202);
+    border-radius: 3px;
+}
+.cpu-txt {
+    text-align: center;
+}
+.spaceog{
+    user-select: none;
+    text-align: center;
+    color: #333;
+    font-size: .7rem;
+}
+.space{
+    user-select: none;
+    text-align: center;
+    color: #333;
+    font-size: .8rem;
+}
+.space1{
+    user-select: none;
+    text-align: center;
+    color: #333;
+    font-size: 8px;
+}
+.space2{
+    user-select: none;
+    text-align: center;
+    color: #333;
+    font-size: 8px;
+}
+.nav-link6:hover{
+    color: white;
+    background-color:rgb(61, 61, 61);
+}
+.nav-link6{
+    -webkit-app-region: no-drag;
+    user-select: none;
+    padding:15px;
+    cursor: pointer;
+    font-size: 1rem;
+    padding-left: 9px;
+    padding-top: 3px;
+    padding-right: 9px;
+    padding-bottom: 1px;
+    align-items: center;
+    background-color: rgb(41, 39, 39);
+    position: fixed;
+    bottom: 534px;
+    left: 148px;
+    border-radius: 4px;
+}
+.nav-link7{
+    -webkit-app-region: no-drag;
+    user-select: none;
+    padding:15px;
+    cursor: pointer;
+    font-size: 1rem;
+    padding-left: 8px;
+    padding-top: 3px;
+    padding-right: 8px;
+    padding-bottom: 1px;
+    align-items: center;
+    background-color: rgb(41, 39, 39);
+    position: fixed;
+    bottom: 534px;
+    left: 182px;
+    border-radius: 4px;
+}
+.nav-link7:hover{
+    color: white;
+    background-color:rgb(61, 61, 61);
+}
+#cpu-name{
+    color: rgb(153, 153, 153);
+    font-size: 1.3rem;
+    padding-left: 150px;
+    font-weight: 150;
+    justify-content: center;
+}
+#cpu1{
+    color: rgb(153, 153, 153);
+    size: 1.1rem;
+    padding-left: 105px;
+}
+#cpu1-info{
+    color: white;
+    padding-left: 40px;
+}
+#cpu2{
+    color: rgb(153, 153, 153);
+    size: 1.1rem;
+}
+#cpu3{
+    color: rgb(153, 153, 153);
+    size: 1.1rem;
+}
+#cpu4{
+    color: rgb(153, 153, 153);
+    size: 1.1rem;
+}
+#cpu-ninfo{
+    color: white;
+    padding-left: 100px;
+}
+#cpu-core{
+    color: rgb(153, 153, 153);
+    font-size: 1.3rem;
+    padding-left: 150px;
+    padding-top: 15px;
+    font-weight: 150;
+    justify-content: center;
+}
+#cpu-cinfo{
+    color: white;
+    padding-left: 100px;
+}
+#cpu-speed{
+    color: rgb(153, 153, 153);
+    font-size: 1.3rem;
+    padding-left: 150px;
+    padding-top: 15px;
+    font-weight: 150;
+    justify-content: center;
+}
+#cpu-mins{
+    color: rgb(153, 153, 153);
+    padding-left: 80px;
+    font-size: .9rem;
+}
+#cpu-maxs{
+    color: rgb(153, 153, 153);
+    padding-left: 25px;
+    font-size: .9rem;
+}
+#cpu-mninfo{
+    color: white;
+    padding-left: 10px;
+    font-size: 1rem;
+    padding-bottom: 10px;
+}
+#cpu-mxinfo{
+    color: white;
+    padding-left: 10px;
+    font-size: 1rem;
+}
+#cpu-sinfo{
+    color: white;
+    padding-left: 100px;
+    font-size: 1rem;
+}
+#pcore{
+    color: rgb(153, 153, 153);
+    padding-left: 85px;
+    font-size: .9rem;
+}
+#pcore-info{
+    color: white;
+    padding-left: 30px;
+    font-size: 1rem;
+}
+#manf1{
+    user-select: none;
+    color: transparent;
+}
+#manf2{
+    user-select: none;
+    color: transparent;
+}
+#manf3{
+    user-select: none;
+    color: transparent;
+}
+#manf4{
+    user-select: none;
+    color: transparent;
+}
+#type1{
+    user-select: none;
+    color: transparent;
+}
+#type2{
+    user-select: none;
+    color: transparent;
+}
+#type3{
+    user-select: none;
+    color: transparent;
+}
+
+#type4{
+    user-select: none;
+    color: transparent;
+}
+#countdowntimer{
+    color: rgb(182, 182, 182);
+    padding-left: 720px;
+    font-size: 1rem;
+}
+#avgl{
+    color: rgb(153, 153, 153);
+    font-size: .9rem;
+    padding-left: 330px;
+}
+#avgl-info{
+    color: white;
+    padding-left: 20px;
+}
