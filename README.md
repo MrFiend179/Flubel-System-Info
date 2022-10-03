@@ -12,6 +12,7 @@ Currently it is only for Window but we'll also make a linux version soon
 3.Storage (size,fs label,free % etc)                          
 4.Os-Info (name,serial number,architecture etc)                              
 5.Graphics/Displays (Name,vendor,resolution, refresh rate etc)
+6.Network (SSID,frequency,txrate etc)
 
 # Chinese (中國人)
 ## 概述
@@ -24,3 +25,4 @@ Currently it is only for Window but we'll also make a linux version soon
 3.存儲（大小、fs 標籤、空閒百分比等）                                       
 4.操作系統信息（名稱、序列號、架構等）                                
 5.圖形/顯示器（名稱、供應商、分辨率、刷新率等）
+6.網絡（SSID、頻率、txrate 等）
