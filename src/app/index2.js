@@ -1,13 +1,7 @@
 const { ipcRenderer } = require("electron");
 const ipc = ipcRenderer
 const si = require('systeminformation');
-const os1 = require("os");
-const os = require("os-utils")
-const fs = require("fs")
-const { cpuUsage } = require("process");
-const { memLayout,fsSize,osInfo,currentLoad } = require('systeminformation');
-const os2 = require("node-os-utils")
-const ndi = require("node-disk-info")
+const {fsSize} = require('systeminformation');
 
 closeBtn.addEventListener('click', ()=>{
     ipc.send('closeApp')

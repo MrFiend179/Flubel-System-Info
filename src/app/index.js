@@ -55,3 +55,12 @@ setInterval(() => {
     minimizeApp.addEventListener('click', ()=>{
         ipc.send('minimizeApp')
     })
+ipcRenderer.on('sndewb',()=>{
+    document.getElementById('idtshwdta').innerText = 'updt avlb'
+})
+ipcRenderer.on('sndewb1',()=>{
+    document.getElementById('idtshwdta1').innerText = 'no updt avlb1'
+})
+ipcRenderer.on('sndewb2',()=>{
+    document.getElementById('idtshwdta2').innerText = 'chking'
+})

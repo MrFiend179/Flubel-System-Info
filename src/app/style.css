@@ -407,3 +407,13 @@ nav{
     color: white;
     padding-left: 20px;
 }
+#idtshwdta,#idtshwdta1,#idtshwdta2{
+    color: white;
+    width: 150px;
+    height: 50px;
+}
+#outrbg{
+    width: 500px;
+    height: 60px;
+    display: flex;
+}
